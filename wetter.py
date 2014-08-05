@@ -12,4 +12,4 @@ import re
 html = urllib2.urlopen("http://www.wetter.at/wetter/oesterreich/steiermark/graz/prognose/24-stunden").read()
 matches = re.findall('class="box">.*?<div.*?(\d+:\d+) Uhr.*?alt="(.*?)".*?"min">(\d+\xc2\xb0).*?Niederschlag: (.*? mm/h)', html, re.DOTALL)
 for match in matches:
-    print '{0:7}{2:6}{1}'.format(*match)
+    print '{0:7}{2:5}{3: >11}  {1}'.format(*match)

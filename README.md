@@ -4,10 +4,12 @@ pyWetterGraz
 Script for displaying the weather in graz
 
 Usage:
+
     python wetter.py
 
 
 Example Output:
+
     00:00  18°  Sprühregen
     01:00  18°  Sprühregen
     02:00  18°  Sprühregen

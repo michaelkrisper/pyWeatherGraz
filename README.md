@@ -1,7 +1,7 @@
-pyWetterGraz
+pyWeatherGraz
 ============
 
-Script for displaying the weather in graz
+Script for displaying the weather in Graz
 
 Usage:
 

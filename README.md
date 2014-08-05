@@ -1,7 +1,7 @@
 pyWeatherGraz
 ============
 
-Script for displaying the weather in Graz
+Script for displaying the weather in Graz. Uses the data from "wetter.at".
 
 Usage:
 
